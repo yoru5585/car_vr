@@ -216,24 +216,25 @@ namespace UnityStandardAssets.Vehicles.Car
 
         public void Move(float steering, float accel, float footbrake, float handbrake)
         {
-            if (GM.instance.sceneCount == 1)
-            {
-                m_Topspeed = 100;
-            }
-            else if (GM.instance.sceneCount == 2)
-            {
-                m_Topspeed = 60;
-            }
-            else if (GM.instance.sceneCount == 3)
-            {
-                m_Topspeed = 40;
-            }
-            else
-            {
-                //m_gmcar.;
-                //myTransform.position = pos;  // 座標を設定
-                
-            }
+            m_Topspeed = 100;
+            //if (GM.instance.sceneCount == 1)
+            //{
+            //    m_Topspeed = 100;
+            //}
+            //else if (GM.instance.sceneCount == 2)
+            //{
+            //    m_Topspeed = 60;
+            //}
+            //else if (GM.instance.sceneCount == 3)
+            //{
+            //    m_Topspeed = 40;
+            //}
+            //else
+            //{
+            //    //m_gmcar.;
+            //    //myTransform.position = pos;  // 座標を設定
+
+            //}
             /*
             m_zInFrontOfAI = infrontofCar.transform.position.z;
             if (m_zInFrontOfAI > 3007.53589)
