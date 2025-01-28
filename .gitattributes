@@ -2,3 +2,4 @@
 *.cs diff
 *.cs -crlf
 VR_2/Assets/ZenKakuGothicAntique-Regular_SDF.asset filter=lfs diff=lfs merge=lfs -text
+ZenKakuGothicAntique-Regular_SDF.asset filter=lfs diff=lfs merge=lfs -text
